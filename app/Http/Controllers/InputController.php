@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 class InputController extends Controller
 {
+    public function welcome(){
+        return view('input.welcome');
+    }
     public function index()
     {
         return view('input.index');
@@ -31,9 +34,9 @@ class InputController extends Controller
             }
             $result += $term;
         }
-        return $result;
+        
 
-        return view('input.hasil',['hasil'=>$result]);
+        return view('input.hasil',['hasil'=>$result, 'jumlah_hari'=>$prediksi]);
     }
 
 }

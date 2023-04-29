@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Input Text</title>
-</head>
-<body>
-    <h1>Input Text</h1>
+@extends('input.layout.master')
+
+@section('form')
+<h1>Input Text</h1>
     <p>Jumlah Text Input: {{ $count }}</p>
     <form method="post" action="{{ route('input.save') }}">
         @csrf
@@ -19,6 +16,7 @@
             <input type="text" name="prediksi" id="prediksi">
         <button type="submit">Save</button>
     </form>
-
-</body>
-</html>
+    @if(!empty($result))
+        <div class="alert alert-success"> {{ $result }}</div>
+    @endif
+@endsection

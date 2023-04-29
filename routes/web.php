@@ -12,10 +12,10 @@ use App\Http\Controllers\InputController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::get('/',[InputController::class,'welcome'])->name('input.welcome');
 Route::get('/input', [InputController::class, 'index'])->name('input.index');
 Route::post('/input', [InputController::class, 'submit'])->name('input.submit');
-Route::post('/input/save', [InputController::class, 'save'])->name('input.save');
+Route::post('/save', [InputController::class, 'save'])->name('input.save');
 
 
 
