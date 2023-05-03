@@ -105,8 +105,8 @@
         </div>
 
 
-
-          <div class="d-flex justify-content-center">
+      <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="Doni.jpg" alt="" width="500px" width="100%">
               <h4>Randa Mahesa Ramadhoni</h4>
@@ -122,8 +122,40 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="Wafa.jpg" alt="" width="500px" width="100%">
+              <h4>Wafa Amalia Putri</h4>
+              <span>DEVELOPER</span>
+              <p>
+                Seorang Mahasiswa
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="Egi1.png" alt="" width="500px" width="100%">
+              <h4>Egi Prastyo</h4>
+              <span>DEVELOPER</span>
+              <p>
+                Seorang Mahasiswa
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
 
-
+        </div>
         </div>
 
       </div>

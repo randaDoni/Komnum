@@ -34,9 +34,6 @@ class InputController extends Controller
             }
             $result += $term;
         }
-        
-
         return view('input.hasil',['hasil'=>$result, 'jumlah_hari'=>$prediksi]);
     }
-
 }
